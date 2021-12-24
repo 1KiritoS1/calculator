@@ -1,0 +1,74 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+button {
+	display: block;
+	border: none;
+}
+
+button:hover {
+	background: #dbdbdb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+	background: #fff;
+	margin: 0;
+}
+
+.header {
+	display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.caption {
+	color: #68fcda;
+	letter-spacing: 0.2em;
+	font-size: 63px;
+}
+
+.subcaption {
+	color: #c1c1c1;
+	letter-spacing: 0.2em;
+	font-size: 28px;
+	text-align: center;
+	margin-right: 7px;
+}
+
+.calculator {
+	margin-left: auto;
+    margin-right: auto;
+    width: 14.5em;
+    margin-top: 45px;
+}
+
+.calculator input {
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #c1c1c1;
+}
+
+.calculator button {
+	transition: .3s all ease;
+	margin: 10px 7px 10px 0;
+	padding: 7px 12px;	
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btns {
+	display: flex;
+}
+
+.last-btn {
+	font-size: 16px;
+	width: 50%
+}
